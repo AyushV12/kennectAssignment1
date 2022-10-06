@@ -1,0 +1,44 @@
+.row1,.row2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    box-shadow: 2px;
+    background-color: whitesmoke;
+    margin: auto;
+    text-align: center;
+}
+.lightThemeButton,.darkThemeButton{
+    margin-left: auto;
+}
+.btnContainer{
+    margin: auto;
+}
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    padding: 10px;
+    margin-top: 100px;
+}
+.themable.container.light-theme{
+    background-color: rgb(245,245,245);
+}
+.themable.container.dark-theme{
+    background-color: rgb(80,80,80);
+}
+.themable .child.light-theme{
+    background-color: rgb(80,80,80);
+    color: rgb(245,245,245);
+}
+.themable .child.dark-theme{
+    background-color: rgb(245,245,245);
+    color: rgb(80,80,80);
+}
